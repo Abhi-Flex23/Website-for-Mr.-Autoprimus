@@ -1,0 +1,59 @@
+@font-face {
+    font-family: "Product Sans";
+    src: url("fonts/Product-Sans-Regular.ttf");
+}
+
+body {
+    background-color: white;
+    color: black;
+    font-family: "Product Sans", sans-serif;
+}
+
+.name {
+    background: -webkit-linear-gradient(right, #21253b, #6b727e);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.intro {
+    font-size: larger;
+    text-align: center;
+}
+
+.title {
+    text-align: center;
+}
+
+.introduction {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.buttons {
+    position: absolute;
+    bottom: 25px;
+    width:100%;
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    margin-left: 10px;
+    height: 40px;
+    width: 150px;
+    border-radius: 25px;
+    border: none;
+    background-color: rgb(226, 226, 226);
+    font-family: "Product Sans", sans-serif;
+    font-size: large;
+    transition: transform 0.3s ease; 
+}
+
+button:hover {
+    transform: scale(1.1); 
+    cursor: pointer;
+}
+
+

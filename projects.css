@@ -1,0 +1,45 @@
+@font-face {
+    font-family: "Product Sans";
+    src: url("fonts/Product-Sans-Regular.ttf");
+}
+
+body {
+    background-color: white;
+    color: black;
+    font-family: "Product Sans", sans-serif;
+}
+
+.buttons {
+    position: absolute;
+    bottom: 25px;
+    width:100%;
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    margin-left: 10px;
+    height: 40px;
+    width: 150px;
+    border-radius: 25px;
+    border: none;
+    background-color: rgb(226, 226, 226);
+    font-family: "Product Sans", sans-serif;
+    font-size: large;
+    transition: transform 0.3s ease; 
+}
+
+button:hover {
+    transform: scale(1.1); 
+    cursor: pointer;
+}
+
+.title {
+    margin-left: 10px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.intro {
+    font-size: 20px;
+}
