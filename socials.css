@@ -33,3 +33,33 @@ button:hover {
     transform: scale(1.1); 
     cursor: pointer;
 }
+
+.title {
+    margin-left: 10px;
+    font-size: 30px;
+    text-align: center;
+    font-family: "Product Sans", sans-serif;
+}
+
+.container {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.twitter {
+    height: 50px;
+    width: 210px;
+    background-color: black;
+    color: white;
+    font-family: "Product Sans", sans-serif;
+}
+
+.yt {
+    height: 50px;
+    width: 210px;
+    background-color: rgb(255, 0, 0);
+    color: white;
+    font-family: "Product Sans", sans-serif;
+    margin-top: 10px;
+}

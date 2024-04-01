@@ -15,6 +15,7 @@ body {
     width:100%;
     display: flex;
     justify-content: center;
+    position: fixed;
 }
 
 button {
@@ -38,8 +39,87 @@ button:hover {
     margin-left: 10px;
     font-size: 30px;
     text-align: center;
+    font-family: "Product Sans", sans-serif;
 }
 
 .intro {
     font-size: 20px;
+    font-family: "Product Sans", sans-serif;
+    margin-left: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+}
+
+a {
+    text-decoration: none;
+}
+
+.whatsapp {
+    border-radius: 40px;
+    background-color:rgb(201, 240, 237);
+    display: flex;
+    font-family: "Product Sans", sans-serif;
+    height: 280px;
+    width: 850px;
+    margin-top: 10px;
+}
+
+.whatsapp-showcase {
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-right: 20px;
+    border-radius: 30px;
+}
+
+.yt {
+    border-radius: 40px;
+    background-color:rgb(240, 228, 201);
+    display: flex;
+    font-family: "Product Sans", sans-serif;
+    height: 280px;
+    width: 850px;
+    margin-top: 10px;
+}
+
+.yt-showcase {
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-right: 20px;
+    border-radius: 30px;
+}
+
+.container {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.finn-tech {
+    border-radius: 40px;
+    background-color:black;
+    display: flex;
+    font-family: "Product Sans", sans-serif;
+    height: 280px;
+    width: 850px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.finn-tech-showcase {
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-right: 20px;
+    border-radius: 30px;
+}
+
+.intro2 {
+    color: white;
+    font-size: 20px;
+    font-family: "Product Sans", sans-serif;
+    margin-left: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
